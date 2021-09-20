@@ -1,0 +1,65 @@
+body,
+html {
+      background-image: url("images/istockphoto-1125087566-612x612.jpeg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+min-height: 100vw;
+position: relative;
+margin: 0;
+padding-bottom: 100px;
+box-sizing: border-box;
+
+}
+header {
+  display: flex;
+  flex-direction: row-reverse;
+ /* justify-content: space-between;*/
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  background-color: rgba(108, 71, 24);
+}
+
+/* Buttons */
+.banner_btn {
+  border-radius: 25px;
+}
+.banner_btn:hover {
+  background: gray;
+  color: white;
+}
+.log_in {
+  margin: 5px;
+}
+.signup{
+  margin: 5px;
+}
+.jumbotron{
+  background: cornsilk;
+}
+
+.title {
+  height: 75%;
+  margin: 5%;
+  margin-right: 40%;
+  text-align: center;
+  font-size: xx-large;
+  background-color: white;
+  border-radius: 10px;
+  opacity: 65%;
+}
+
+/*card styles for possible matches*/
+.card{
+  width: 18rem;
+ 
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  background-color: rgba(119, 88, 22, 0.748);
+}
+

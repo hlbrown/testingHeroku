@@ -1,0 +1,28 @@
+<!-- Loop over each object in the projects array -->
+
+
+
+<div class="matches_container">
+
+        <div class="match row row-cols-1 row-cols-md-2">
+            {{#each users as |user| }}
+            <div class="match_name card ">
+                <h1 class="card-title">{{user.first_name}}</h1>
+                 <span class="age"><strong>{{user.age}}</strong></span>
+                 <span class="pronoun">{{user.preferred_pronoun}}</span>
+                    <h3 class="beer_preference">{{user.beers_name}}</h3>
+                    <h4 class="hobbies">Hobbies: {{user.hobbies}}</h4>
+                    <ul class="hobbies_list">
+                        {{#each user.user_hobbies}}
+                        <li>
+                            {{{this}}}
+                        </li>
+                        {{/each}}
+                     </ul>
+                </div >
+                {{/each}}<!--ending div match_name-->
+        </div><!--ending div match card-->
+     
+</div><!---ending div for container-->
+
+

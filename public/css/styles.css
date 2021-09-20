@@ -1,0 +1,194 @@
+body,
+html {
+  background-image: url("images/istockphoto-1125087566-612x612.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Banner  */
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+.banner_btn {
+  border-radius: 25px;
+}
+.banner_btn:hover {
+  background: gray;
+  color: white;
+}
+.log_in {
+  margin: 5px;
+}
+/* Main section */
+.title {
+  height: 75%;
+  margin: 5%;
+  margin-right: 40%;
+  text-align: center;
+  font-size: 5em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  opacity: 65%;
+  font-family: "Work Sans", sans-serif;
+  color: rgba(100, 69, 1);
+}
+
+.reviews {
+  font-size: large;
+  margin-top: 5%;
+}
+
+/* info section within main portion */
+
+.welcome_info {
+  font-size: medium;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 5%;
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  /* position: relative; */
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  /* padding: 80px; */
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: relative;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
+
+.matches_container {
+  padding: 2%;
+  margin: 2%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.match {
+  width: 40%;
+  background-color: rgb(44, 29, 1);
+  color: rgb(170, 111, 2);
+}
+.match_name {
+  margin-top: 0;
+  font-size: 2.4em;
+  padding: 3%;
+  font-weight: normal;
+}
+span {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 3%;
+}
+.beer_preference {
+  padding: 3%;
+}
+.pronoun {
+  font-size: 1.45rem;
+  color: #999;
+}
+.request_btn {
+  padding-left: 50%;
+}
+.hobbies {
+  margin: 0;
+  background-color: #ccc;
+  padding: 8px 15px;
+}
+.hobbies_list {
+  background-color: #EFEFEF;
+  padding: 0;
+  margin: 0;
+}
+.hobbies_list li {
+  list-style: none;
+  border-bottom: 1px dotted #999;
+  padding: 8px 15px;
+  font-size: 0.85rem;
+}
